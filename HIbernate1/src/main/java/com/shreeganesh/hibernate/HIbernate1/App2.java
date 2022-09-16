@@ -15,6 +15,8 @@ public class App2
     	c.addAnnotatedClass(Song.class);
     	SessionFactory sf= c.buildSessionFactory();
 
+    	
+    	//test
     	Session s=sf.openSession();
     	
     	Song s1 = new Song();
