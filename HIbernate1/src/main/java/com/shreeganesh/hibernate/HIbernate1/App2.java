@@ -16,7 +16,7 @@ public class App2
     	SessionFactory sf= c.buildSessionFactory();
 
     	Session s=sf.openSession();
-    	
+    	//
     	Song s1 = new Song();
     	s1.setId(2);
     	s1.setSongName("Khamoshiyan");
